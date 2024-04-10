@@ -1,0 +1,13 @@
+<div>
+    <h2>Sign up</h2>
+    <form #myForm="ngForm" (ngSubmit)="register(myForm)" class="formLayout">
+        <input type="text" class="inputField" name="email" ngModel placeholder="Email">
+        <input type="text" class="inputField" name="name" ngModel placeholder="Name">
+        <input type="password" name="password" class="inputField" ngModel placeholder="Password"><br>
+        <input type="text" name="surname" class="inputField" ngModel placeholder="Surname">
+        <input type="text" name="username" class="inputField" ngModel placeholder="Username">
+        <button type="submit" class="inputField">Register</button>
+    </form>
+
+    <p><b>{{msg}}</b></p>
+</div>

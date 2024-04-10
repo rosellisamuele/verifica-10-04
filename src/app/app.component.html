@@ -1,0 +1,11 @@
+<div id="mainContainer">
+  <div id="loginDiv" *ngIf="loginOption">
+    <app-login></app-login>
+    <p>Not signed up yet? <button (click)="popSignUpForm()">Sign up now</button></p>
+  </div>
+
+  <div id="signUpDiv" *ngIf="signUpOption">
+    <app-register></app-register>
+    <p>Already signed up? <button (click)="popLoginForm()">Login now</button></p>
+  </div>
+</div>

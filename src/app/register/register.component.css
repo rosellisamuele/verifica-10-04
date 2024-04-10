@@ -1,0 +1,12 @@
+.inputField{
+    margin: 10px 10px 10px 10px;
+}
+.formLayout{
+    margin: auto;
+    width: 80%;
+}
+button{
+    border: 2px solid rgb(6, 10, 66);
+    color: rgb(6, 10, 66);
+    background-color: lightsteelblue;
+}
