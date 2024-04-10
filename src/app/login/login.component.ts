@@ -27,8 +27,9 @@ export class LoginComponent {
       }else{
         this.msg = "Wrong credentials";
       }
-
     });
+
+    
 
     
 

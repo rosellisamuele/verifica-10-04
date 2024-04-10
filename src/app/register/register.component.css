@@ -5,3 +5,9 @@
     margin: auto;
     width: 80%;
 }
+p#loginSuccessful{
+    color:green;
+}
+p#loginError{
+    color:red;
+}
